@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Camera of the Jungle</title>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+</head>
+
+<body>
+  <a-scene>
+    <a-assets>
+        <video id="vid360" src="https://cdn.glitch.com/e8068289-7008-4a94-b515-d3cfa8bad8ba%2Farbol.MP4?1532705057982" autoplay loop="true"></video>
+    </a-assets>
+
+    <a-sky src="#vid360" rotation="0 -90 0"></a-sky>
+  </a-scene>
+</body>
+</html>
